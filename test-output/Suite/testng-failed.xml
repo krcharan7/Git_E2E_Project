@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="Academy.E2EProject.Listeners"/>
+  </listeners>
+  <test name="validateHome(failed)" parallel="none">
+    <classes>
+      <class name="Academy.E2EProject.validateHome">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validateHeader"/>
+          <include name="initiation"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.validateHome -->
+      <class name="Academy.E2EProject.HomePage">
+        <methods>
+          <include name="initiation"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Academy.E2EProject.HomePage -->
+    </classes>
+  </test> <!-- validateHome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
