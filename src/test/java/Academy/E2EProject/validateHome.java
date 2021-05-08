@@ -48,7 +48,7 @@ public class validateHome extends base {
 
 		Assert.assertEquals(lp.titleValue().getText(), "FEATURED COURSES");
 		Assert.assertTrue(lp.HomeValidation().isDisplayed());
-		log.info("Home is displayed");
+		System.out.println("Home is displayed");
 	}
 	@Test
 	public void validateHeader() {
@@ -56,7 +56,7 @@ public class validateHome extends base {
 	
 
 		Assert.assertEquals(lp.HeaderValidation().getText(), "An Academy to learn Everything about Testing");
-	   System.out.println("Header is validated");	
+	   System.out.println("Header is validated and checked");	
 	}
 	@AfterTest
 	public void tearDown() {
